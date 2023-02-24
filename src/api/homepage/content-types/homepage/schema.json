@@ -24,7 +24,8 @@
       },
       "type": "dynamiczone",
       "components": [
-        "components.hero"
+        "components.hero",
+        "components.content-list"
       ]
     }
   }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_hubspots",
+  "info": {
+    "displayName": "Hubspot",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "formId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
