@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_components_images",
+  "info": {
+    "displayName": "image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "responsive",
+        "full"
+      ],
+      "required": true,
+      "default": "responsive"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

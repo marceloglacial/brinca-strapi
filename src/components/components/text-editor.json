@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_text_editors",
+  "info": {
+    "displayName": "textEditor",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
