@@ -1,12 +1,12 @@
 "use strict";
 
 /**
- *  page controller
+ *  event controller
  */
 
 const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController("api::page.page", ({ strapi }) => ({
+module.exports = createCoreController("api::event.event", ({ strapi }) => ({
   async findOne(ctx) {
     const { slug } = ctx.params;
 
@@ -15,9 +15,12 @@ module.exports = createCoreController("api::page.page", ({ strapi }) => ({
       ...ctx.query,
     };
 
-    const page = await strapi.entityService.findMany("api::page.page", query);
+    const event = await strapi.entityService.findMany(
+      "api::event.event",
+      query
+    );
 
-    const sanitizedEntity = await this.sanitizeOutput(page);
+    const sanitizedEntity = await this.sanitizeOutput(event);
 
     return this.transformResponse(sanitizedEntity[0]);
   },

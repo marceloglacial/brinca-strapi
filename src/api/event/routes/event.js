@@ -1,11 +1,11 @@
 "use strict";
 
 /**
- * page router.
+ * event router.
  */
 
 const { createCoreRouter } = require("@strapi/strapi").factories;
-const defaultRouter = createCoreRouter("api::page.page");
+const defaultRouter = createCoreRouter("api::event.event");
 
 // function to add to or override default router methods
 const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
@@ -42,8 +42,8 @@ const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
 const myOverideRoutes = [
   {
     method: "GET",
-    path: "/pages/:slug",
-    handler: "api::page.page.findOne",
+    path: "/events/:slug",
+    handler: "api::event.event.findOne",
   },
 ];
 

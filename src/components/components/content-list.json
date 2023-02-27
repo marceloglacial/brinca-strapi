@@ -2,24 +2,28 @@
   "collectionName": "components_components_content_lists",
   "info": {
     "displayName": "ContentList",
-    "icon": "asterisk"
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Type": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
       "type": "enumeration",
       "enum": [
         "events",
         "pages"
       ],
-      "default": "events",
-      "required": true
+      "required": true,
+      "default": "events"
     },
-    "Items": {
+    "items": {
       "type": "integer",
       "required": true,
-      "default": 3,
-      "min": 1
+      "default": 3
     }
   }
 }
