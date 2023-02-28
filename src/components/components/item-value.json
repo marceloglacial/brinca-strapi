@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_item_values",
+  "info": {
+    "displayName": "itemValue",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "primary",
+        "secondary"
+      ],
+      "default": "link"
+    }
+  }
+}
