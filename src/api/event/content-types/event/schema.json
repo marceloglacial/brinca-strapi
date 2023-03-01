@@ -44,7 +44,8 @@
       "components": [
         "components.gallery",
         "components.image",
-        "components.text-editor"
+        "components.text-editor",
+        "components.embed"
       ],
       "pluginOptions": {
         "i18n": {

@@ -45,7 +45,8 @@
         "components.gallery",
         "components.image",
         "components.text-editor",
-        "components.hubspot"
+        "components.hubspot",
+        "components.embed"
       ],
       "pluginOptions": {
         "i18n": {

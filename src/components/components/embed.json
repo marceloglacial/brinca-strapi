@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_embeds",
+  "info": {
+    "displayName": "embed",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "embedType": {
+      "type": "enumeration",
+      "enum": [
+        "youtube",
+        "vimeo",
+        "twitter",
+        "soundcloud"
+      ],
+      "required": true,
+      "default": "youtube"
+    }
+  }
+}
