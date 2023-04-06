@@ -1,6 +1,6 @@
-# fly.toml file generated for brinca-cms-strapi on 2023-02-23T23:51:39-05:00
+# fly.toml file generated for brinca-strapi on 2023-04-06T16:36:38-04:00
 
-app = "brinca-cms-strapi"
+app = "brinca-strapi"
 kill_signal = "SIGINT"
 kill_timeout = 120
 processes = []
