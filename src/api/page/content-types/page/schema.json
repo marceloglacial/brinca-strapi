@@ -46,7 +46,8 @@
         "components.image",
         "components.text-editor",
         "components.hubspot",
-        "components.embed"
+        "components.embed",
+        "components.cloudinary-folder"
       ],
       "pluginOptions": {
         "i18n": {

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_cloudinary_folders",
+  "info": {
+    "displayName": "Cloudinary Folder",
+    "icon": "folder-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "folderName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Galeria de Fotos",
+      "required": true
+    }
+  }
+}
