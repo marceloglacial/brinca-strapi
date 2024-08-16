@@ -9,13 +9,14 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "type": {
+    "contentType": {
       "type": "enumeration",
       "enum": [
         "events",
-        "pages"
+        "pages",
+        "calendars"
       ],
       "required": true,
       "default": "events"

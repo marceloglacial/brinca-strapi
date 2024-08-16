@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_menus",
+  "info": {
+    "singularName": "header-menu",
+    "pluralName": "header-menus",
+    "displayName": "headerMenu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

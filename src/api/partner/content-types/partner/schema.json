@@ -1,0 +1,120 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Address": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "Email": {
+      "type": "email",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "phone": {
+      "type": "biginteger",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "website": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "whatsapp": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "facebook": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "instagram": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "MemberEmail": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "email"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

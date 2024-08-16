@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "calendars",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
+    "singularName": "calendar",
+    "pluralName": "calendars",
+    "displayName": "Calendar",
     "description": ""
   },
   "options": {
@@ -27,28 +27,28 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "required": true
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": true,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
     "content": {
       "type": "dynamiczone",
       "components": [
-        "components.gallery",
-        "components.image",
-        "components.text-editor",
-        "components.hubspot",
-        "components.embed",
         "components.cloudinary-folder",
-        "components.content-list"
+        "components.gallery",
+        "components.hubspot",
+        "components.text-editor",
+        "components.embed"
       ],
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -58,7 +58,7 @@
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],

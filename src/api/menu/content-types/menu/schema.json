@@ -10,12 +10,21 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "components.item-value"
+      "component": "components.item-value",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

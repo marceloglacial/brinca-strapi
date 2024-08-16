@@ -31,7 +31,6 @@
     },
     "date": {
       "type": "date",
-      "default": "2022-09-07",
       "required": true,
       "pluginOptions": {
         "i18n": {
@@ -63,7 +62,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     }
