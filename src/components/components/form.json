@@ -7,11 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "formId": {
       "type": "string",
+      "required": true
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }
