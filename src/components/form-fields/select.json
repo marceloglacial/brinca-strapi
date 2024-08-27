@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_form_fields_selects",
+  "info": {
+    "displayName": "select",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form-fields.option"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

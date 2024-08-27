@@ -46,7 +46,8 @@
         "components.gallery",
         "components.hubspot",
         "components.text-editor",
-        "components.embed"
+        "components.embed",
+        "components.form"
       ],
       "required": true,
       "pluginOptions": {

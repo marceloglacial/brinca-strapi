@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_partners_lists",
+  "info": {
+    "displayName": "PartnersList",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

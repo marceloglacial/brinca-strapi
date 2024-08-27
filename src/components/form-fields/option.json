@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_fields_options",
+  "info": {
+    "displayName": "option",
+    "icon": "caret-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "required": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_categories",
+  "info": {
+    "singularName": "partner-category",
+    "pluralName": "partner-categories",
+    "displayName": "PartnerCategory"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

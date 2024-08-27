@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "pluginOptions": {
@@ -25,12 +25,7 @@
         }
       }
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "Title",
-      "required": true
-    },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true,
       "pluginOptions": {
@@ -39,7 +34,7 @@
         }
       }
     },
-    "Address": {
+    "address": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -47,7 +42,7 @@
         }
       }
     },
-    "Email": {
+    "email": {
       "type": "email",
       "required": true,
       "pluginOptions": {
@@ -96,7 +91,7 @@
         }
       }
     },
-    "MemberEmail": {
+    "memberEmail": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -105,16 +100,40 @@
       "type": "email"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "linkedin": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::partner-category.partner-category"
+    },
+    "isActive": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

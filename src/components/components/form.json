@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "formId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

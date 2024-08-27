@@ -47,7 +47,9 @@
         "components.hubspot",
         "components.embed",
         "components.cloudinary-folder",
-        "components.content-list"
+        "components.content-list",
+        "components.partners-list",
+        "components.form"
       ],
       "pluginOptions": {
         "i18n": {

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_form_fields_inputs",
+  "info": {
+    "displayName": "input",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "phone",
+        "url",
+        "submit",
+        "file"
+      ],
+      "default": "text",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
