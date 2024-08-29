@@ -29,8 +29,17 @@
       "component": "components.button",
       "required": true
     },
-    "isRounded": {
-      "type": "boolean"
+    "rounded": {
+      "type": "boolean",
+      "default": false
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
