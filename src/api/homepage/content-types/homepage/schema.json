@@ -25,7 +25,8 @@
       "type": "dynamiczone",
       "components": [
         "components.hero",
-        "components.content-list"
+        "components.content-list",
+        "components.sponsors"
       ]
     }
   }

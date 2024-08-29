@@ -45,7 +45,8 @@
         "components.image",
         "components.text-editor",
         "components.embed",
-        "components.cloudinary-folder"
+        "components.cloudinary-folder",
+        "components.button"
       ],
       "pluginOptions": {
         "i18n": {

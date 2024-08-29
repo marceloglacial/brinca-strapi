@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_links_groups",
+  "info": {
+    "displayName": "linksGroup",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    }
+  }
+}

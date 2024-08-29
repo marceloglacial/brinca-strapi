@@ -49,7 +49,9 @@
         "components.cloudinary-folder",
         "components.content-list",
         "components.partners-list",
-        "components.form"
+        "components.form",
+        "components.button",
+        "components.links-group"
       ],
       "pluginOptions": {
         "i18n": {
