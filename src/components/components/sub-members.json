@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_sub_members",
+  "info": {
+    "displayName": "familyMember",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

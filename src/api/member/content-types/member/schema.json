@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "pluginOptions": {},
+      "type": "email",
+      "required": true
+    },
+    "fullName": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "province": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "postalCode": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "phone": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "consent": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "family": {
+      "displayName": "sub-members",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.sub-members"
+    },
+    "memberType": {
+      "type": "enumeration",
+      "enum": [
+        "new-family",
+        "new-individual",
+        "new-senior",
+        "new-student",
+        "renew-family",
+        "renew-individual",
+        "renew-senior",
+        "renew-student"
+      ]
+    },
+    "member2": {
+      "type": "string"
+    },
+    "member3": {
+      "type": "string"
+    },
+    "member4": {
+      "type": "string"
+    },
+    "member5": {
+      "type": "string"
+    }
+  }
+}
