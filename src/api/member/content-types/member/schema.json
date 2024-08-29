@@ -80,6 +80,11 @@
     },
     "member5": {
       "type": "string"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
