@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newcomers",
+  "info": {
+    "singularName": "newcomer",
+    "pluralName": "newcomers",
+    "displayName": "Newcomer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

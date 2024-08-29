@@ -2,7 +2,7 @@
   "collectionName": "components_form_fields_inputs",
   "info": {
     "displayName": "input",
-    "icon": "arrow-alt-circle-right",
+    "icon": "battery-empty",
     "description": ""
   },
   "options": {},
@@ -28,8 +28,9 @@
         "email",
         "phone",
         "url",
-        "submit",
-        "file"
+        "checkbox",
+        "file",
+        "submit"
       ],
       "default": "text",
       "required": true

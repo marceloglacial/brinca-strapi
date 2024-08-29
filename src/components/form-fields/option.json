@@ -2,7 +2,7 @@
   "collectionName": "components_form_fields_options",
   "info": {
     "displayName": "option",
-    "icon": "caret-right",
+    "icon": "plus",
     "description": ""
   },
   "options": {},

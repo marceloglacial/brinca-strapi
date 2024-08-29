@@ -37,7 +37,8 @@
         "form-fields.select",
         "form-fields.textarea",
         "form-fields.input",
-        "form-fields.collectionlist"
+        "form-fields.collectionlist",
+        "components.text-editor"
       ],
       "required": true
     },
